@@ -181,6 +181,15 @@
 
 
 // ===========>chapter 6 to 9 ============>
+// Question no 2
+// var a=2;
+// var b=1;
+// var result=--a - --b + ++b + b--;
+// document.write("a is: "+a+"<br>");
+// document.write("b is: "+b+"<br>");
+// document.write("result is: "+result);
+
+
 // Question no 3
 // var name=prompt("Enter your name?")
 // alert("Hello,"+" "+name+" "+"! welcome to our website");
@@ -202,6 +211,42 @@
 // document.write(table+" x 9 = "+table*9+"<br>");
 // document.write(table+" x 10 = "+table*10);
 
+
+// Question no 5
+
+// // Take input for subject names
+// var subject1 = prompt("Enter the name of the first subject:");
+// var subject2 = prompt("Enter the name of the second subject:");
+// var subject3 = prompt("Enter the name of the third subject:");
+
+// // Total marks for each subject
+// var totalMarks = 100;
+
+// // Take input for obtained marks for the first subject
+// var obtainedMarksSubject1 = +prompt("Enter the obtained marks for " + subject1);
+// // Take input for obtained marks for the second subject
+// var obtainedMarksSubject2 = +prompt("Enter the obtained marks for " + subject2);
+// // Take input for obtained marks for the third subject
+// var obtainedMarksSubject3 = +prompt("Enter the obtained marks for " + subject3);
+
+// // percentage of each subject
+// var percentageSubject1 = (obtainedMarksSubject1 / totalMarks) * 100;
+// var percentageSubject2 = (obtainedMarksSubject2 / totalMarks) * 100;
+// var percentageSubject3 = (obtainedMarksSubject3 / totalMarks) * 100;
+
+// // Calculate total marks all subject and obtained marks and percentage 
+// var totalMarksAllSubject=100*3;
+// var obtainedMarks=obtainedMarksSubject1+obtainedMarksSubject2+obtainedMarksSubject3;
+// var percentage=(obtainedMarks/totalMarksAllSubject)*100;
+
+// // Display the result in a table
+// document.write("<table border='1'>");
+// document.write("<tr><th>Subject</th><th>Total Marks</th><th>Obtained Marks</th><th>Percentage</th></tr>");
+// document.write("<tr><td>" + subject1 + "</td><td>" + totalMarks + "</td><td>" + obtainedMarksSubject1 + "</td><td>" + percentageSubject1+"%</td></tr>");
+// document.write("<tr><td>" + subject2 + "</td><td>" + totalMarks + "</td><td>" + obtainedMarksSubject2 + "</td><td>" + percentageSubject2+"%</td></tr>");
+// document.write("<tr><td>" + subject3 + "</td><td>" + totalMarks + "</td><td>" + obtainedMarksSubject3 + "</td><td>" + percentageSubject3+"%</td></tr>");
+// document.write("<tr><td>"+"Total"+ "</td><td>"+totalMarksAllSubject + "</td><td>" + obtainedMarks+ "</td><td>" + percentage+"%</td></tr>");
+// document.write("</table>");
 
 
 
