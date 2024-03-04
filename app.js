@@ -181,6 +181,29 @@
 
 
 // ===========>chapter 6 to 9 ============>
+// Question no 1
+// var a=10;
+// document.write("Result: "+"<br>")
+// document.write("The value of a is :"+(a)+"<br>");
+// document.write("................................");
+// document.write("<br>")
+// document.write("<br>")
+// document.write("The value of ++a is :"+(++a)+"<br>");
+// document.write("Now the value of a is :"+(a));
+// document.write("<br>")
+// document.write("<br>")
+// document.write("The value of a++ is :"+(a++)+"<br>");
+// document.write("Now the value of a is :"+(a));
+// document.write("<br>")
+// document.write("<br>")
+// document.write("The value of --a is :"+(--a)+"<br>");
+// document.write("Now the value of a is :"+(a));
+// document.write("<br>")
+// document.write("<br>")
+// document.write("The value of a-- is :"+(a)+"<br>");
+// document.write("Now the value of a is :"+(--a));
+
+
 // Question no 2
 // var a=2;
 // var b=1;
